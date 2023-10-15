@@ -109,27 +109,24 @@ function Skills() {
           </span>
           {/* <div className="container"> */}
             {/* <div className="d-flex justify-content-evenly m-3 flex-wrap"> */}
-              <div>
-                {/* Node JS icon */}
+              {/* <div>
                 <TbBrandNodejs className="icons" />
                 <p>NODE JS</p>
               </div>
               <div>
                 <SiExpress/>
                 <p>EXPRESS JS</p>
-              </div>
+              </div> */}
               <div>
                 {/* SQL icon */}
                 <GrMysql className="icons" />
                 <p>SQL</p>
               </div>
-              <div>
-                {/* MongoDB icon */}
+              {/* <div>
                 <SiMongodb className="icons" />
                 <p>MONGO DB</p>
-              </div>
+              </div> */}
               <div>
-                {/* C++ icon */}
                 <CgCPlusPlus className="icons" />
                 <p>c plus plus</p>
               </div>
@@ -137,9 +134,7 @@ function Skills() {
                 <SiBootstrap/>
                 <p>BOOTSTRAP</p>
               </div>
-            {/* </div> */}
-          {/* </div> */}
-        {/* </div> */}
+        
       </div>
       <section className="photos d-flex justify-content-center flex-wrap">
         <img id="img" src={c0} alt="c0" />
