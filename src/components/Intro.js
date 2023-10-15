@@ -26,7 +26,7 @@ function Intro() {
                 <h4>Hello All !!</h4>
               </spam>
               <h1>
-                I am <span className="name"> Yogeshwar (Yogi)</span>
+                I am <span className="name"> Yogi</span>
               </h1>
               <div>
                 & I 'am a <span className="webDev">web Developer</span>
