@@ -1,0 +1,56 @@
+.skills {
+  margin: 0;
+  width: 100vw;
+font-weight: 500;
+  background-color: darkslategrey;
+  padding-top: 4rem;
+color:#fff;}
+#skills {
+  padding-top: 4rem;
+  font-size: larger;
+}
+.icons {
+  height: 1rem;
+  width: 1rem;
+  font-weight: 900;
+  font-size: 1rem;
+  margin: 1%;
+}
+#img{
+    height: 20rem;
+    width: 20rem;
+    margin: 1%;
+    align-items: center;
+}
+p{
+  color: rgb(0, 53, 53);
+  width: auto;
+  background-color: rgb(254, 254, 254);
+  font-weight: 900;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 1rem; 
+  justify-items: center; 
+  align-items: center;
+}
+.photos img{
+  width: 15%;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  border: #fff;
+}
+#img {
+  width: 20%; 
+  height: auto; 
+  object-fit: contain;
+  /* border: 2px solid #154703;  */
+  transition: transform 0.4s ease-in-out; 
+}
+
+#img:hover {
+  transform: scale(1.5); /* Enlarge the image on hover */
+  cursor: grab;
+}
+

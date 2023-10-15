@@ -1,0 +1,106 @@
+nav{
+    height:4rem;
+    width:100vw ;
+    margin-top: 0.3rem;
+    padding: 1rem 2rem;
+    background-color: #26577C;
+    /* max-width: 80rem; */
+    margin: 0.5rem ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+.desktopMenuItem{
+    display: inline;
+    color: #fff;
+    text-decoration: none;
+    margin: 1rem;
+    cursor: pointer;
+}
+.desktopMenuItem:hover{
+    color: tomato;
+    padding-bottom: 0.5rem;
+    border-bottom:5px solid tomato;
+}
+.logoContainer{
+    width: 4em;
+    height: 4em;
+}
+.logoImg{
+    object-fit: cover;
+    width: 100%;
+    height: 90%;
+}
+.buttonImg{
+    width: 1em;
+    height: 1rem ;
+    padding: 1%;
+}
+.desktopMenubtn{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 0.5rem;
+    margin: 0.4rem;
+    border: none;
+    border-radius: 5rem;
+}
+.desktopMenubtn:hover{
+    background-color:  tomato;
+}
+/*  these styles for mobile menu */
+.mobileMenuIcon {
+    display: none; 
+  }
+  
+  .mobileMenu {
+    display: none; /* Initially hide the mobile menu */
+    background-color: #26577C;
+    position: absolute;
+    top: 4rem;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+  }
+  
+  .mobileMenu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .mobileMenu li {
+    padding: 1rem;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .mobileMenu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  /* Media query for mobile devices (e.g., screens with a maximum width of 768px) */
+  @media (max-width: 768px) {
+    .desktopMenu {
+      display: none; /* Hide the desktop menu on small screens */
+    }
+  
+    .mobileMenuIcon {
+      display: block; /* Show the mobile menu icon */
+      cursor: pointer;
+    }
+  
+    .mobile-open .mobileMenu {
+      display: block; /* Show the mobile menu when mobile-open class is applied */
+    }
+  }
+  .hamburgerIcon {
+    color: white;
+  }
+  
