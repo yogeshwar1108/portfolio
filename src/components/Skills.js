@@ -4,10 +4,10 @@ import c0 from "../assets/c0.png";
 import c1 from "../assets/c1.png";
 import c3 from "../assets/uc.jpg";
 import { GrMysql } from "react-icons/gr";
-import { SiMongodb } from "react-icons/si";
-import { TbBrandNodejs } from "react-icons/tb";
+// import { SiMongodb } from "react-icons/si";
+// import { TbBrandNodejs } from "react-icons/tb";
 import { CgCPlusPlus } from "react-icons/cg";
-import { SiExpress } from "react-icons/si";
+// import { SiExpress } from "react-icons/si";
 import { SiBootstrap } from "react-icons/si";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
