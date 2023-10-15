@@ -27,7 +27,7 @@ function Projects() {
         <ProjectCard
           title="A To-do App"
           image={todo}
-          description="This is a simple to-do app to keep you updated with daily tasks "
+          description="This is a simple to-do app to keep you updated with daily tasks this project is made using REACT JS "
           link="https://tellurself.netlify.app/"
         />
       </div>
