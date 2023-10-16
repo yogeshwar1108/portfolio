@@ -3,6 +3,7 @@ import "./Projects.css";
 import proImg from "../assets/images.jpeg";
 import random from "../assets/codewithrandom11.png";
 import todo from "../assets/todo.png"
+import movie from  "../assets/movie.png"
 
 import ProjectCard from "./ProjectCard";
 
@@ -29,6 +30,12 @@ function Projects() {
           image={todo}
           description="This is a simple to-do app to keep you updated with daily tasks this project is made using REACT JS "
           link="https://tellurself.netlify.app/"
+        />
+         <ProjectCard
+          title="Top Movies app"
+          image={movie}
+          description="build a prduction ready application which tell best top films till 2022 "
+          link="https://besttopmovies.netlify.app/"
         />
       </div>
       <div className="more">
