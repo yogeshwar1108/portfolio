@@ -1,8 +1,10 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
+
 .App {
+  background: radial-gradient(circle at center, #1FA0FF, #12DAFB, #A7FDCC);
   margin: 0;
   padding: 0;
   text-align: center;

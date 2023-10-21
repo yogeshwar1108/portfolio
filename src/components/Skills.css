@@ -1,10 +1,14 @@
 .skills {
+  background: linear-gradient(0deg,#34a7d4,#68c2e5,#bee5f4 );
+
   margin: 0;
   width: 100vw;
-font-weight: 500;
+  font-weight: 500;
   background-color: darkslategrey;
   padding-top: 4rem;
-color:#fff;}
+  color: #fff;
+}
+
 #skills {
   padding-top: 4rem;
   font-size: larger;
@@ -16,13 +20,13 @@ color:#fff;}
   font-size: 1rem;
   margin: 1%;
 }
-#img{
-    height: 20rem;
-    width: 20rem;
-    margin: 1%;
-    align-items: center;
+#img {
+  height: 20rem;
+  width: 20rem;
+  margin: 1%;
+  align-items: center;
 }
-p{
+p {
   color: rgb(0, 53, 53);
   width: auto;
   background-color: rgb(254, 254, 254);
@@ -30,27 +34,26 @@ p{
 }
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); 
-  gap: 1rem; 
-  justify-items: center; 
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  justify-items: center;
   align-items: center;
 }
-.photos img{
+.photos img {
   width: 15%;
   aspect-ratio: 3/2;
   object-fit: contain;
   border: #fff;
 }
 #img {
-  width: 20%; 
-  height: auto; 
+  width: 20%;
+  height: auto;
   object-fit: contain;
   /* border: 2px solid #154703;  */
-  transition: transform 0.4s ease-in-out; 
+  transition: transform 0.4s ease-in-out;
 }
 
 #img:hover {
   transform: scale(1.5); /* Enlarge the image on hover */
   cursor: grab;
 }
-

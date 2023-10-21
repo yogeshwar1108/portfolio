@@ -1,6 +1,7 @@
 #contacts {
+  background: linear-gradient(180deg,#4158D0 ,#c850c0,#ffcc70 );
+
   width: 100vw;
-  background-color: #52e2f3;
 }
 
 .Content {
