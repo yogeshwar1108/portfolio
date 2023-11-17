@@ -33,7 +33,7 @@ function Courousal() {
       <div className="img_item_container">
         <img
           src={data[randomImageIndex]}
-          alt="Random Image"
+          alt="the_certificate_Image"
           className="img_item"
         />
       </div>
