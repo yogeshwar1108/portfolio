@@ -1,8 +1,7 @@
 import React from "react";
 import "./Skills.css";
-import c0 from "../assets/c0.png";
-import c1 from "../assets/c1.png";
-import c3 from "../assets/uc.jpg";
+import Courousal from "./Courousal";
+
 import { GrMysql } from "react-icons/gr";
 // import { SiMongodb } from "react-icons/si";
 // import { TbBrandNodejs } from "react-icons/tb";
@@ -136,16 +135,8 @@ function Skills() {
                 <p>MONGO DB</p>
               </div> */}
       </div>
-      <section className="photos d-flex justify-content-center flex-wrap">
-        <img id="img" src={c0} alt="c0" />
-        <img id="img" src={c1} alt="c1" />
-        <img
-          id="img"
-          src="https://moonshot.scaler.com/s/image/sl/ykeJuJwQ9K?scope=body"
-          alt="c3"
-        />
-        <img id="img" src={c3} alt="c3" />
-      </section>
+      <Courousal />
+
     </div>
   );
 }

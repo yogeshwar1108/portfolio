@@ -1,0 +1,35 @@
+/* Courousal.css */
+
+  .img_item_container {
+    width: 100%; 
+    max-width: 400px;
+  }
+   .img_item_container :hover{
+    transform: scale(1.1);
+  cursor: grab;
+  }
+  .img_item {
+    width: 100%;
+    height: auto; 
+  }
+
+  .button_container{
+    height: fit-content;
+    width: fit-content; 
+    font-size: x-large;
+    color: black;
+    padding: 2rem;
+  }
+  .button_container :hover{
+    transform: scale(2);
+    cursor: pointer;
+    color: black;
+  }
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    /* background-color: black; */
+    height: fit-content;
+  }
