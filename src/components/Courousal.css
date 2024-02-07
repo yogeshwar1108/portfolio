@@ -2,7 +2,7 @@
 
   .img_item_container {
     width: 100%; 
-    margin: 0, 2rem ;
+   
     max-width: 400px;
   }
    .img_item_container :hover{
@@ -24,9 +24,7 @@
     color: black;
     padding: 1rem;
   }
-  .button_container :hover{
-    transform: scale(2);
-  
+  .button_container :hover{    transform: scale(2);
     cursor: pointer;
     color: black;
   }
@@ -35,6 +33,6 @@
     align-items: center;
     justify-content: center;
     padding: 2rem;
-    /* background-color: black; */
+
     height: fit-content;
   }
