@@ -1,10 +1,11 @@
 .skills {
-  background: linear-gradient(0deg,#34a7d4,#68c2e5,#bee5f4 );
-
+background-image: url(../assets/background.jpg);
+background-position: center;
+background-size: cover;
   margin: 0;
   width: 100vw;
   font-weight: 500;
-  background-color: darkslategrey;
+  /* background-color: darkslategrey; */
   padding-top: 4rem;
   color: #fff;
 }

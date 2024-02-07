@@ -2,26 +2,31 @@
 
   .img_item_container {
     width: 100%; 
+    margin: 0, 2rem ;
     max-width: 400px;
   }
    .img_item_container :hover{
+    margin: 1rem;
     transform: scale(1.1);
-  cursor: grab;
+    cursor: grab;
   }
   .img_item {
     width: 100%;
     height: auto; 
   }
 
-  .button_container{
-    height: fit-content;
-    width: fit-content; 
-    font-size: x-large;
+  .button_container{ 
+    z-index: 10;
+    font-size: small;
+    background-color:  rgba(255,255,255,0.6);
+    border-radius: 50em;
+    border-color:3em solid blue;
     color: black;
-    padding: 2rem;
+    padding: 1rem;
   }
   .button_container :hover{
     transform: scale(2);
+  
     cursor: pointer;
     color: black;
   }

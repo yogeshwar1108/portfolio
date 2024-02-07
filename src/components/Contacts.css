@@ -1,6 +1,7 @@
 #contacts {
-  background: linear-gradient(180deg,#4158D0 ,#c850c0,#ffcc70 );
-
+  background-image: url(../assets/background.jpg);
+  background-position: center;
+  background-size: cover;
   width: 100vw;
 }
 
@@ -13,7 +14,9 @@
   margin: 0rem 5rem;
   font-weight: 300;
 }
-
+ .h1{
+  color: #080e7f;
+ }
 
 .a-tags {
   /* position: sticky; */

@@ -12,7 +12,7 @@ function Contacts() {
   return (
     <section id="contacts">
       <main className="Content">
-        <h1>contact me 👇👇</h1>
+        <h1 className="h1">contact me 👇👇</h1>
         <div className="a-tags">
           <a href="https://github.com/yogeshwar1108">
             <DiGithubFull className="icon " />

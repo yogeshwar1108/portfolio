@@ -1,6 +1,7 @@
 #projects {
-  background: linear-gradient(180deg, #5a96dc, #0a1223, #635ee2);
-
+  background-image: url(../assets/background.jpg);
+  background-position: center;
+  background-size: cover;
   text-align: center;
   padding: 2rem;
   display: flex;
