@@ -14,7 +14,7 @@ function Navigation() {
 
   return (
     <>
-      <nav className={`navbar position-sticky container ${isMobileMenuOpen ? "mobile-open" : ""}`}>
+      <nav className={`navbar container ${isMobileMenuOpen ? "mobile-open" : ""}`}>
         <div className="logoContainer">
           <img src={logo} alt="logo" className="logoImg" />
         </div>

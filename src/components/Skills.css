@@ -1,11 +1,7 @@
 .skills {
-background-image: url(../assets/background.jpg);
-background-position: center;
-background-size: cover;
   margin: 0;
   width: 100vw;
   font-weight: 500;
-  /* background-color: darkslategrey; */
   padding-top: 4rem;
   color: #fff;
 }

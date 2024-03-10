@@ -39,7 +39,7 @@ function Projects() {
         /> */}
       </div>
       <div className="more">
-        <h4 className="highlight-text">More projects are loading.........</h4>
+        <h4 className="highlight-text text-warning">More projects are loading.........</h4>
         <p id="p">Meanwhile, check the resume & Github for more Undeployed projects</p>
       </div>
     </div>

@@ -10,7 +10,5 @@
   text-align: center;
   width: 100vw;
   height: 100vh;
-  background-image: url(./assets/background.jpg);
-  background-position: center;
-  background-size: cover;
+  background-image: repeating-linear-gradient(157.5deg, rgb(0,0,0) 0px, rgb(0,0,0) 20px,transparent 20px, transparent 22px),repeating-linear-gradient(90deg, rgb(0,0,0) 0px, rgb(0,0,0) 20px,transparent 20px, transparent 22px),linear-gradient(90deg, hsl(333,93%,55%),hsl(45,93%,55%),hsl(117,93%,55%),hsl(189,93%,55%),hsl(261,93%,55%));
 }
